@@ -1,0 +1,59 @@
+=================================================================
+TABLEAUPULSE - DATA QUALITY REPORT
+=================================================================
+
+Total rows: 10,194
+Total columns: 21
+Exact duplicate rows: 0
+
+1. MISSING VALUES
+-----------------------------------------------------------------
+Total missing cells: 0
+No missing values found.
+
+2. PRODUCT MAPPING
+-----------------------------------------------------------------
+Unique product IDs: 1,862
+IDs mapped to multiple product names: 32
+IDs mapped to multiple categories: 0
+IDs mapped to multiple subcategories: 0
+
+3. FINANCIAL DATA
+-----------------------------------------------------------------
+Sales missing/unparseable: 0
+Sales negative values: 0
+Sales total: 2,326,534.35
+Profit missing/unparseable: 0
+Profit negative values: 1,901
+Profit total: 292,296.81
+Discount missing/unparseable: 0
+Discount negative values: 0
+Discount total: 1,583.99
+Overall profit margin: 12.56%
+
+4. DATE VALIDATION
+-----------------------------------------------------------------
+order_date: invalid dates = 0
+  Earliest: 2023-01-03
+  Latest: 2026-12-30
+ship_date: invalid dates = 0
+  Earliest: 2023-01-07
+  Latest: 2027-01-05
+Ship dates before order dates: 0
+
+5. QUANTITY AND DISCOUNT RANGE
+-----------------------------------------------------------------
+Quantity below 1: 0
+Non-integer quantities: 0
+Discount below 0: 0
+Discount above 1: 0
+
+6. SOURCE COMPARISON
+-----------------------------------------------------------------
+Previously verified: 10,194 rows in both files.
+Previously verified: 0 cell differences between source and cleaned CSV.
+Product-name mapping inconsistencies were present in the source.
+
+=================================================================
+END OF REPORT
+=================================================================
