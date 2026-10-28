@@ -85,6 +85,13 @@ At a high level, the project:
 
 Follow the project's actual configuration requirements. Do not commit passwords, database credentials, API keys, or other secrets to GitHub.
 
+## Dashboard Previews
+
+### Dashboard 1
+![Dashboard 1](screenshots/dashboard1.png)
+
+### Dashboard 2
+![Dashboard 2](screenshots/dashboard2.png)
 ## Limitations
 
 - Analysis is limited to the fields and costs available in the dataset.
